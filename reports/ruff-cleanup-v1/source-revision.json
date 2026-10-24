@@ -1,0 +1,29 @@
+{
+  "revision": "ruff-cleanup-v1",
+  "created_at": "2026-10-24 16:14 PDT",
+  "baseline_commit": "500b0c727ec5ba93856ad2188db5c554646115e4",
+  "ruff_version": "0.17.2",
+  "scope": "Ruff formatting, import cleanup and literal comprehensions; scientific methods, parameters and original study artifacts preserved. Source verification accepts only this explicit hash mapping.",
+  "baseline_source_hashes": {
+    "PLAN.json": "e9b3097e2249025ad6401508983927c741ecbeca7ab83e80d2ce0b89974c7099",
+    "data/derived/manifest.json": "89b67b5a57aa449c29cde0533a329a8bb731bd62fda421e08eb63ef7c18bf5aa",
+    "spatial_lab/__init__.py": "c82a5e75eb0d0dfe8bcdf476f23e4d585ba659a7adcfa4fd5586e993b22dc48d",
+    "spatial_lab/data.py": "60672169d878e9e61d63fed0926115fa812ad529ed8d83c0db2292aeae3c3fbb",
+    "spatial_lab/analysis.py": "9fb8394aa7bedbb244153e32ca74bb2ea97b56c3e0a277d4ff67cc533e74e16c",
+    "spatial_lab/reconstruction.py": "d7afe53ae814e60d2e30bc84493d41acac2bfdfd02802e82366f818dbecd1b55",
+    "spatial_lab/movement.py": "8cea7ce3d79765858e7d557d01b54816cb47078e8935afb0a89379ebcb2b71d4",
+    "scripts/prepare_data.py": "3a1e2b6f3cbc6fbc9b15e2f34fc5d6804a30090e94115e082692f09cc13df7da",
+    "scripts/run_study.py": "3bf98737a178c5bd68c0383113c0431e50ea2bed80a2835769ddfe21df10f9a9"
+  },
+  "current_source_hashes": {
+    "PLAN.json": "e9b3097e2249025ad6401508983927c741ecbeca7ab83e80d2ce0b89974c7099",
+    "data/derived/manifest.json": "89b67b5a57aa449c29cde0533a329a8bb731bd62fda421e08eb63ef7c18bf5aa",
+    "spatial_lab/__init__.py": "1536dd89485ba8e247ce82209ed43b8171ec81b92b45680a16c6c37a3648ef03",
+    "spatial_lab/data.py": "d4dd3097a5fca8f872ebb648bd4faefca1077309337ec14966fa7074c53b124d",
+    "spatial_lab/analysis.py": "69aaf2e7d357361e0edaf6bfdc022e2a8de413cf856e49655b5db2086d087960",
+    "spatial_lab/reconstruction.py": "de9c48ad22ba43430083b77866636a5fb0bc5ffa4d05aea554992125394d2076",
+    "spatial_lab/movement.py": "1fa1f13875417743b877d5d5d7caba0426510b9b191bd93af52915a65c3d998e",
+    "scripts/prepare_data.py": "04356923cf3416e1d907fa840694444e9f8938aaeeee9b4079efb63a66a986fe",
+    "scripts/run_study.py": "affb60d94a769a3b4f88572d0f79741c35f4264b8d80dd44be94bc47d5fe0234"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "created_at": "2026-10-24 16:16 PDT",
+  "ruff_version": "0.17.2",
+  "lint_exit_code": 0,
+  "format_check_exit_code": 0,
+  "tests_passed": 19,
+  "original_retained_evidence_files_unchanged": 45,
+  "core_normalized_ast_equivalence": {
+    "spatial_lab/__init__.py": true,
+    "spatial_lab/analysis.py": true,
+    "spatial_lab/data.py": true,
+    "spatial_lab/movement.py": true,
+    "spatial_lab/reconstruction.py": true,
+    "spatial_lab/server.py": true
+  },
+  "ast_check_scope": "Ignores imports and normalizes dict keyword construction / set generators. Import removal and ordering reviewed separately; this is a bounded syntax comparison, not proof of behavioral equivalence.",
+  "full_scientific_replay": "reports/ruff-cleanup-v1/reproduction/REPRODUCTION.json",
+  "replay_sha256": "dac1537dc4222c7a9acd672256d445523b7ddf13234d9dde2e5ef3181d219918",
+  "scope": "Python maintenance in this repository only. Original scientific results and failure cases retained."
+}

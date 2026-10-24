@@ -51,6 +51,16 @@ python3 scripts/reproduce.py --out reports/my-reproduction
 
 Use a new output directory. Originals are preserved. See [reproducibility](docs/REPRODUCIBILITY.md).
 
+## Python code quality
+
+```sh
+python3 -m pip install -r requirements-dev.txt
+ruff check .
+ruff format --check .
+```
+
+Ruff is pinned to 0.17.2 and configured for Python 3.12+. The [cleanup verification](reports/ruff-cleanup-v1/README.md) records tests, source provenance and scientific replay results.
+
 ## Data and scope
 
 The source is [Schürch's Mendeley Data V1 deposit](https://data.mendeley.com/datasets/mpjzbtfgfr/1), DOI **10.17632/mpjzbtfgfr.1**, licensed CC BY 4.0. The full 223 MB original CSV is retained locally and ignored for future Git. A 21 MB selected-column representation is included under `data/derived/`, with source hash, units, joins and attribution. See [data attribution](DATA_ATTRIBUTION.md).

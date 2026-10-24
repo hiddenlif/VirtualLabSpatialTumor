@@ -1,5 +1,7 @@
 # Development verification
 
+The dated checks below describe the initial implementation. The later [Ruff maintenance record](../reports/ruff-cleanup-v1/README.md) adds clean lint/format checks, 19 passing tests, and a complete replay with all eight substantive study artifacts matching byte for byte.
+
 Verified 2026-10-24 14:56 PDT · local first release 0.1.0.
 
 | Check | Result | Retained evidence |

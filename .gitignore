@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv/
+.ruff_cache/
 data/source/*.csv
 
 # Local credentials and environment overrides
