@@ -1,0 +1,62 @@
+{
+  "verified_at": "2026-10-24 14:56 PDT",
+  "status": "PASS",
+  "checks": [
+    {
+      "command": [
+        "/usr/local/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "evidence": "reports/final-tests.txt"
+    },
+    {
+      "command": [
+        "/usr/local/bin/python3",
+        "scripts/verify_results.py"
+      ],
+      "exit_code": 0,
+      "evidence": "reports/final-integrity.json"
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "web/app.js"
+      ],
+      "exit_code": 0,
+      "evidence": "reports/javascript-check.txt"
+    }
+  ],
+  "browser_views_checked": [
+    "atlas",
+    "reconstruction",
+    "movement",
+    "study",
+    "methods"
+  ],
+  "documented_failure_replayed_in_browser": {
+    "region": "reg070_A",
+    "patient": 35,
+    "pattern": "band",
+    "method": "ridge",
+    "seed": 101,
+    "hidden_cells": 533,
+    "rmse_log1p": 2.044207272734297,
+    "proximity_error_pp": 20.879120879120883
+  },
+  "browser_exports": "reports/browser-export-check.json",
+  "responsive_width_px": 390,
+  "responsive_document_widths": {
+    "atlas": 390,
+    "reconstruction": 390,
+    "study": 390
+  },
+  "viewport_override_reset": true,
+  "reproduction": "reports/reproduction-v1/REPRODUCTION.json"
+}

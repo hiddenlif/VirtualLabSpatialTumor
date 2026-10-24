@@ -1,0 +1,2914 @@
+{
+  "created_at": "2026-10-24 14:37 PDT",
+  "data_doi": "10.17632/mpjzbtfgfr.1",
+  "source_url": "https://data.mendeley.com/public-files/datasets/mpjzbtfgfr/files/c24351b3-76d7-444f-9edf-0246356b0c78/file_downloaded",
+  "source_sha256": "416cc3926a7a900ce3b22a33be699535ca35ae85fca4585a8ba5dad6d7f3c677",
+  "source_bytes": 222999273,
+  "derived_sha256": "804d7a4e19f79d0edeef46954e1ed7a862972d53d93f498cf583c86e0f1f9240",
+  "rows": 258385,
+  "original_columns": 99,
+  "marker_names": [
+    "CD8",
+    "CD3",
+    "CD4",
+    "CD45",
+    "CD2",
+    "CD5",
+    "CD7",
+    "FOXP3",
+    "CD20",
+    "CD68",
+    "Cytokeratin",
+    "aSMA",
+    "CD45RO",
+    "Collagen IV",
+    "CD31",
+    "CDX2"
+  ],
+  "marker_source_columns": {
+    "CD8": "CD8 - cytotoxic T cells:Cyc_3_ch_2",
+    "CD3": "CD3 - T cells:Cyc_16_ch_4",
+    "CD4": "CD4 - T helper cells:Cyc_6_ch_3",
+    "CD45": "CD45 - hematopoietic cells:Cyc_4_ch_2",
+    "CD2": "CD2 - T cells:Cyc_7_ch_4",
+    "CD5": "CD5 - T cells:Cyc_9_ch_3",
+    "CD7": "CD7 - T cells:Cyc_16_ch_3",
+    "FOXP3": "FOXP3 - regulatory T cells:Cyc_2_ch_3",
+    "CD20": "CD20 - B cells:Cyc_8_ch_3",
+    "CD68": "CD68 - macrophages:Cyc_18_ch_4",
+    "Cytokeratin": "Cytokeratin - epithelia:Cyc_10_ch_2",
+    "aSMA": "aSMA - smooth muscle:Cyc_11_ch_2",
+    "CD45RO": "CD45RO - memory cells:Cyc_18_ch_3",
+    "Collagen IV": "Collagen IV - bas. memb.:Cyc_12_ch_2",
+    "CD31": "CD31 - vasculature:Cyc_19_ch_3",
+    "CDX2": "CDX2 - intestinal epithelia:Cyc_2_ch_4"
+  },
+  "type_names": [
+    "B cells",
+    "CD11b+ monocytes",
+    "CD11b+CD68+ macrophages",
+    "CD11c+ DCs",
+    "CD163+ macrophages",
+    "CD3+ T cells",
+    "CD4+ T cells",
+    "CD4+ T cells CD45RO+",
+    "CD4+ T cells GATA3+",
+    "CD68+ macrophages",
+    "CD68+ macrophages GzmB+",
+    "CD68+CD163+ macrophages",
+    "CD8+ T cells",
+    "NK cells",
+    "Tregs",
+    "adipocytes",
+    "dirt",
+    "granulocytes",
+    "immune cells",
+    "immune cells / vasculature",
+    "lymphatics",
+    "nerves",
+    "plasma cells",
+    "smooth muscle",
+    "stroma",
+    "tumor cells",
+    "tumor cells / immune cells",
+    "undefined",
+    "vasculature"
+  ],
+  "region_names": [
+    "reg001_A",
+    "reg001_B",
+    "reg002_A",
+    "reg002_B",
+    "reg003_A",
+    "reg003_B",
+    "reg004_A",
+    "reg004_B",
+    "reg005_A",
+    "reg005_B",
+    "reg006_A",
+    "reg006_B",
+    "reg007_A",
+    "reg007_B",
+    "reg008_A",
+    "reg008_B",
+    "reg009_A",
+    "reg009_B",
+    "reg010_A",
+    "reg010_B",
+    "reg011_A",
+    "reg011_B",
+    "reg012_A",
+    "reg012_B",
+    "reg013_A",
+    "reg013_B",
+    "reg014_A",
+    "reg014_B",
+    "reg015_A",
+    "reg015_B",
+    "reg016_A",
+    "reg016_B",
+    "reg017_A",
+    "reg017_B",
+    "reg018_A",
+    "reg018_B",
+    "reg019_A",
+    "reg019_B",
+    "reg020_A",
+    "reg020_B",
+    "reg021_A",
+    "reg021_B",
+    "reg022_A",
+    "reg022_B",
+    "reg023_A",
+    "reg023_B",
+    "reg024_A",
+    "reg024_B",
+    "reg025_A",
+    "reg025_B",
+    "reg026_A",
+    "reg026_B",
+    "reg027_A",
+    "reg027_B",
+    "reg028_A",
+    "reg028_B",
+    "reg029_A",
+    "reg029_B",
+    "reg030_A",
+    "reg030_B",
+    "reg031_A",
+    "reg031_B",
+    "reg032_A",
+    "reg032_B",
+    "reg033_A",
+    "reg033_B",
+    "reg034_A",
+    "reg034_B",
+    "reg035_A",
+    "reg035_B",
+    "reg036_A",
+    "reg036_B",
+    "reg037_A",
+    "reg037_B",
+    "reg038_A",
+    "reg038_B",
+    "reg039_A",
+    "reg039_B",
+    "reg040_A",
+    "reg040_B",
+    "reg041_A",
+    "reg041_B",
+    "reg042_A",
+    "reg042_B",
+    "reg043_A",
+    "reg043_B",
+    "reg044_A",
+    "reg044_B",
+    "reg045_A",
+    "reg045_B",
+    "reg046_A",
+    "reg046_B",
+    "reg047_A",
+    "reg047_B",
+    "reg048_A",
+    "reg048_B",
+    "reg049_A",
+    "reg049_B",
+    "reg050_A",
+    "reg050_B",
+    "reg051_A",
+    "reg051_B",
+    "reg052_A",
+    "reg052_B",
+    "reg053_A",
+    "reg053_B",
+    "reg054_A",
+    "reg054_B",
+    "reg055_A",
+    "reg055_B",
+    "reg056_A",
+    "reg056_B",
+    "reg057_A",
+    "reg057_B",
+    "reg058_A",
+    "reg058_B",
+    "reg059_A",
+    "reg059_B",
+    "reg060_A",
+    "reg060_B",
+    "reg061_A",
+    "reg061_B",
+    "reg062_A",
+    "reg062_B",
+    "reg063_A",
+    "reg063_B",
+    "reg064_A",
+    "reg064_B",
+    "reg065_A",
+    "reg065_B",
+    "reg066_A",
+    "reg066_B",
+    "reg067_A",
+    "reg067_B",
+    "reg068_A",
+    "reg068_B",
+    "reg069_A",
+    "reg069_B",
+    "reg070_A",
+    "reg070_B"
+  ],
+  "neighborhood_names": [
+    "Bulk tumor",
+    "Follicle",
+    "Granulocyte enriched",
+    "Immune-infiltrated stroma",
+    "Macrophage enriched",
+    "Not assigned by authors",
+    "Smooth muscle",
+    "T cell enriched",
+    "Tumor boundary",
+    "Vascularized smooth muscle"
+  ],
+  "missing_final_neighborhoods": 4566,
+  "regions": {
+    "reg001_A": {
+      "patient": 1,
+      "group": 1,
+      "spot": "1_A",
+      "cell_count": 1164,
+      "eligible_count": 1093,
+      "tumor_count": 48,
+      "cd8_count": 83,
+      "bounds": [
+        [
+          77.0,
+          0.0
+        ],
+        [
+          1906.0,
+          1433.0
+        ]
+      ]
+    },
+    "reg001_B": {
+      "patient": 1,
+      "group": 1,
+      "spot": "1_B",
+      "cell_count": 360,
+      "eligible_count": 341,
+      "tumor_count": 22,
+      "cd8_count": 9,
+      "bounds": [
+        [
+          163.0,
+          19.0
+        ],
+        [
+          1890.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg002_A": {
+      "patient": 1,
+      "group": 1,
+      "spot": "2_A",
+      "cell_count": 1422,
+      "eligible_count": 1340,
+      "tumor_count": 107,
+      "cd8_count": 76,
+      "bounds": [
+        [
+          24.0,
+          4.0
+        ],
+        [
+          1882.0,
+          1431.0
+        ]
+      ]
+    },
+    "reg002_B": {
+      "patient": 1,
+      "group": 1,
+      "spot": "2_B",
+      "cell_count": 2670,
+      "eligible_count": 2601,
+      "tumor_count": 2189,
+      "cd8_count": 18,
+      "bounds": [
+        [
+          32.0,
+          18.0
+        ],
+        [
+          1889.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg003_A": {
+      "patient": 2,
+      "group": 2,
+      "spot": "3_A",
+      "cell_count": 1310,
+      "eligible_count": 1252,
+      "tumor_count": 317,
+      "cd8_count": 50,
+      "bounds": [
+        [
+          193.0,
+          0.0
+        ],
+        [
+          1903.0,
+          1430.0
+        ]
+      ]
+    },
+    "reg003_B": {
+      "patient": 2,
+      "group": 2,
+      "spot": "3_B",
+      "cell_count": 1252,
+      "eligible_count": 1222,
+      "tumor_count": 589,
+      "cd8_count": 178,
+      "bounds": [
+        [
+          32.0,
+          20.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg004_A": {
+      "patient": 2,
+      "group": 2,
+      "spot": "4_A",
+      "cell_count": 1485,
+      "eligible_count": 1452,
+      "tumor_count": 139,
+      "cd8_count": 38,
+      "bounds": [
+        [
+          17.0,
+          0.0
+        ],
+        [
+          1911.0,
+          1425.0
+        ]
+      ]
+    },
+    "reg004_B": {
+      "patient": 2,
+      "group": 2,
+      "spot": "4_B",
+      "cell_count": 1969,
+      "eligible_count": 1890,
+      "tumor_count": 30,
+      "cd8_count": 66,
+      "bounds": [
+        [
+          20.0,
+          18.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg005_A": {
+      "patient": 3,
+      "group": 2,
+      "spot": "5_A",
+      "cell_count": 2583,
+      "eligible_count": 2533,
+      "tumor_count": 873,
+      "cd8_count": 266,
+      "bounds": [
+        [
+          8.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1435.0
+        ]
+      ]
+    },
+    "reg005_B": {
+      "patient": 3,
+      "group": 2,
+      "spot": "5_B",
+      "cell_count": 1678,
+      "eligible_count": 1647,
+      "tumor_count": 64,
+      "cd8_count": 341,
+      "bounds": [
+        [
+          19.0,
+          17.0
+        ],
+        [
+          1919.0,
+          1438.0
+        ]
+      ]
+    },
+    "reg006_A": {
+      "patient": 3,
+      "group": 2,
+      "spot": "6_A",
+      "cell_count": 1390,
+      "eligible_count": 1367,
+      "tumor_count": 167,
+      "cd8_count": 251,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1902.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg006_B": {
+      "patient": 3,
+      "group": 2,
+      "spot": "6_B",
+      "cell_count": 2215,
+      "eligible_count": 2082,
+      "tumor_count": 513,
+      "cd8_count": 184,
+      "bounds": [
+        [
+          19.0,
+          15.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg007_A": {
+      "patient": 4,
+      "group": 2,
+      "spot": "7_A",
+      "cell_count": 3181,
+      "eligible_count": 3000,
+      "tumor_count": 1064,
+      "cd8_count": 51,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg007_B": {
+      "patient": 4,
+      "group": 2,
+      "spot": "7_B",
+      "cell_count": 2375,
+      "eligible_count": 2317,
+      "tumor_count": 110,
+      "cd8_count": 31,
+      "bounds": [
+        [
+          16.0,
+          17.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg008_A": {
+      "patient": 4,
+      "group": 2,
+      "spot": "8_A",
+      "cell_count": 1418,
+      "eligible_count": 1397,
+      "tumor_count": 329,
+      "cd8_count": 37,
+      "bounds": [
+        [
+          3.0,
+          0.0
+        ],
+        [
+          1901.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg008_B": {
+      "patient": 4,
+      "group": 2,
+      "spot": "8_B",
+      "cell_count": 3370,
+      "eligible_count": 3307,
+      "tumor_count": 1509,
+      "cd8_count": 76,
+      "bounds": [
+        [
+          18.0,
+          15.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg009_A": {
+      "patient": 5,
+      "group": 2,
+      "spot": "9_A",
+      "cell_count": 2434,
+      "eligible_count": 2404,
+      "tumor_count": 147,
+      "cd8_count": 196,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg009_B": {
+      "patient": 5,
+      "group": 2,
+      "spot": "9_B",
+      "cell_count": 3420,
+      "eligible_count": 3391,
+      "tumor_count": 40,
+      "cd8_count": 39,
+      "bounds": [
+        [
+          15.0,
+          15.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg010_A": {
+      "patient": 5,
+      "group": 2,
+      "spot": "10_A",
+      "cell_count": 2091,
+      "eligible_count": 2049,
+      "tumor_count": 123,
+      "cd8_count": 157,
+      "bounds": [
+        [
+          4.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg010_B": {
+      "patient": 5,
+      "group": 2,
+      "spot": "10_B",
+      "cell_count": 1266,
+      "eligible_count": 1242,
+      "tumor_count": 46,
+      "cd8_count": 48,
+      "bounds": [
+        [
+          54.0,
+          16.0
+        ],
+        [
+          1919.0,
+          1383.0
+        ]
+      ]
+    },
+    "reg011_A": {
+      "patient": 6,
+      "group": 1,
+      "spot": "11_A",
+      "cell_count": 2757,
+      "eligible_count": 2431,
+      "tumor_count": 300,
+      "cd8_count": 167,
+      "bounds": [
+        [
+          5.0,
+          38.0
+        ],
+        [
+          1880.0,
+          1438.0
+        ]
+      ]
+    },
+    "reg011_B": {
+      "patient": 6,
+      "group": 1,
+      "spot": "11_B",
+      "cell_count": 922,
+      "eligible_count": 911,
+      "tumor_count": 48,
+      "cd8_count": 37,
+      "bounds": [
+        [
+          84.0,
+          18.0
+        ],
+        [
+          1818.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg012_A": {
+      "patient": 6,
+      "group": 1,
+      "spot": "12_A",
+      "cell_count": 1774,
+      "eligible_count": 1739,
+      "tumor_count": 169,
+      "cd8_count": 96,
+      "bounds": [
+        [
+          6.0,
+          34.0
+        ],
+        [
+          1919.0,
+          1437.0
+        ]
+      ]
+    },
+    "reg012_B": {
+      "patient": 6,
+      "group": 1,
+      "spot": "12_B",
+      "cell_count": 482,
+      "eligible_count": 471,
+      "tumor_count": 72,
+      "cd8_count": 17,
+      "bounds": [
+        [
+          15.0,
+          24.0
+        ],
+        [
+          1838.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg013_A": {
+      "patient": 7,
+      "group": 2,
+      "spot": "13_A",
+      "cell_count": 1631,
+      "eligible_count": 1619,
+      "tumor_count": 36,
+      "cd8_count": 127,
+      "bounds": [
+        [
+          65.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1435.0
+        ]
+      ]
+    },
+    "reg013_B": {
+      "patient": 7,
+      "group": 2,
+      "spot": "13_B",
+      "cell_count": 2005,
+      "eligible_count": 1948,
+      "tumor_count": 606,
+      "cd8_count": 58,
+      "bounds": [
+        [
+          152.0,
+          15.0
+        ],
+        [
+          1792.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg014_A": {
+      "patient": 7,
+      "group": 2,
+      "spot": "14_A",
+      "cell_count": 969,
+      "eligible_count": 948,
+      "tumor_count": 83,
+      "cd8_count": 55,
+      "bounds": [
+        [
+          6.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg014_B": {
+      "patient": 7,
+      "group": 2,
+      "spot": "14_B",
+      "cell_count": 2130,
+      "eligible_count": 2110,
+      "tumor_count": 166,
+      "cd8_count": 45,
+      "bounds": [
+        [
+          38.0,
+          15.0
+        ],
+        [
+          1881.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg015_A": {
+      "patient": 8,
+      "group": 2,
+      "spot": "15_A",
+      "cell_count": 2491,
+      "eligible_count": 2448,
+      "tumor_count": 291,
+      "cd8_count": 87,
+      "bounds": [
+        [
+          4.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg015_B": {
+      "patient": 8,
+      "group": 2,
+      "spot": "15_B",
+      "cell_count": 1654,
+      "eligible_count": 1559,
+      "tumor_count": 90,
+      "cd8_count": 48,
+      "bounds": [
+        [
+          57.0,
+          15.0
+        ],
+        [
+          1823.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg016_A": {
+      "patient": 8,
+      "group": 2,
+      "spot": "16_A",
+      "cell_count": 1967,
+      "eligible_count": 1943,
+      "tumor_count": 204,
+      "cd8_count": 46,
+      "bounds": [
+        [
+          46.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg016_B": {
+      "patient": 8,
+      "group": 2,
+      "spot": "16_B",
+      "cell_count": 2422,
+      "eligible_count": 2383,
+      "tumor_count": 664,
+      "cd8_count": 8,
+      "bounds": [
+        [
+          14.0,
+          13.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg017_A": {
+      "patient": 9,
+      "group": 2,
+      "spot": "17_A",
+      "cell_count": 2698,
+      "eligible_count": 2626,
+      "tumor_count": 584,
+      "cd8_count": 123,
+      "bounds": [
+        [
+          45.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg017_B": {
+      "patient": 9,
+      "group": 2,
+      "spot": "17_B",
+      "cell_count": 2834,
+      "eligible_count": 2751,
+      "tumor_count": 487,
+      "cd8_count": 182,
+      "bounds": [
+        [
+          22.0,
+          14.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg018_A": {
+      "patient": 9,
+      "group": 2,
+      "spot": "18_A",
+      "cell_count": 2035,
+      "eligible_count": 1997,
+      "tumor_count": 452,
+      "cd8_count": 109,
+      "bounds": [
+        [
+          29.0,
+          0.0
+        ],
+        [
+          1908.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg018_B": {
+      "patient": 9,
+      "group": 2,
+      "spot": "18_B",
+      "cell_count": 2525,
+      "eligible_count": 1381,
+      "tumor_count": 568,
+      "cd8_count": 147,
+      "bounds": [
+        [
+          105.0,
+          13.0
+        ],
+        [
+          1891.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg019_A": {
+      "patient": 10,
+      "group": 1,
+      "spot": "19_A",
+      "cell_count": 1555,
+      "eligible_count": 1549,
+      "tumor_count": 27,
+      "cd8_count": 213,
+      "bounds": [
+        [
+          93.0,
+          59.0
+        ],
+        [
+          1847.0,
+          1437.0
+        ]
+      ]
+    },
+    "reg019_B": {
+      "patient": 10,
+      "group": 1,
+      "spot": "19_B",
+      "cell_count": 107,
+      "eligible_count": 105,
+      "tumor_count": 1,
+      "cd8_count": 2,
+      "bounds": [
+        [
+          162.0,
+          67.0
+        ],
+        [
+          1812.0,
+          1414.0
+        ]
+      ]
+    },
+    "reg020_A": {
+      "patient": 10,
+      "group": 1,
+      "spot": "20_A",
+      "cell_count": 2195,
+      "eligible_count": 2085,
+      "tumor_count": 426,
+      "cd8_count": 126,
+      "bounds": [
+        [
+          30.0,
+          0.0
+        ],
+        [
+          1799.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg020_B": {
+      "patient": 10,
+      "group": 1,
+      "spot": "20_B",
+      "cell_count": 2684,
+      "eligible_count": 2650,
+      "tumor_count": 135,
+      "cd8_count": 249,
+      "bounds": [
+        [
+          16.0,
+          11.0
+        ],
+        [
+          1868.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg021_A": {
+      "patient": 11,
+      "group": 1,
+      "spot": "21_A",
+      "cell_count": 2678,
+      "eligible_count": 2633,
+      "tumor_count": 104,
+      "cd8_count": 153,
+      "bounds": [
+        [
+          20.0,
+          0.0
+        ],
+        [
+          1697.0,
+          1434.0
+        ]
+      ]
+    },
+    "reg021_B": {
+      "patient": 11,
+      "group": 1,
+      "spot": "21_B",
+      "cell_count": 338,
+      "eligible_count": 321,
+      "tumor_count": 13,
+      "cd8_count": 29,
+      "bounds": [
+        [
+          135.0,
+          13.0
+        ],
+        [
+          1823.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg022_A": {
+      "patient": 11,
+      "group": 1,
+      "spot": "22_A",
+      "cell_count": 2128,
+      "eligible_count": 1940,
+      "tumor_count": 66,
+      "cd8_count": 298,
+      "bounds": [
+        [
+          5.0,
+          0.0
+        ],
+        [
+          1847.0,
+          1434.0
+        ]
+      ]
+    },
+    "reg022_B": {
+      "patient": 11,
+      "group": 1,
+      "spot": "22_B",
+      "cell_count": 774,
+      "eligible_count": 681,
+      "tumor_count": 54,
+      "cd8_count": 83,
+      "bounds": [
+        [
+          20.0,
+          16.0
+        ],
+        [
+          1858.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg023_A": {
+      "patient": 12,
+      "group": 1,
+      "spot": "23_A",
+      "cell_count": 1042,
+      "eligible_count": 912,
+      "tumor_count": 223,
+      "cd8_count": 48,
+      "bounds": [
+        [
+          66.0,
+          6.0
+        ],
+        [
+          1906.0,
+          1438.0
+        ]
+      ]
+    },
+    "reg023_B": {
+      "patient": 12,
+      "group": 1,
+      "spot": "23_B",
+      "cell_count": 2394,
+      "eligible_count": 2347,
+      "tumor_count": 185,
+      "cd8_count": 410,
+      "bounds": [
+        [
+          40.0,
+          12.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg024_A": {
+      "patient": 12,
+      "group": 1,
+      "spot": "24_A",
+      "cell_count": 2041,
+      "eligible_count": 1045,
+      "tumor_count": 591,
+      "cd8_count": 37,
+      "bounds": [
+        [
+          5.0,
+          0.0
+        ],
+        [
+          1849.0,
+          1437.0
+        ]
+      ]
+    },
+    "reg024_B": {
+      "patient": 12,
+      "group": 1,
+      "spot": "24_B",
+      "cell_count": 2465,
+      "eligible_count": 2367,
+      "tumor_count": 1196,
+      "cd8_count": 14,
+      "bounds": [
+        [
+          14.0,
+          12.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg025_A": {
+      "patient": 13,
+      "group": 1,
+      "spot": "25_A",
+      "cell_count": 1353,
+      "eligible_count": 1341,
+      "tumor_count": 45,
+      "cd8_count": 105,
+      "bounds": [
+        [
+          74.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1433.0
+        ]
+      ]
+    },
+    "reg025_B": {
+      "patient": 13,
+      "group": 1,
+      "spot": "25_B",
+      "cell_count": 1978,
+      "eligible_count": 1889,
+      "tumor_count": 63,
+      "cd8_count": 291,
+      "bounds": [
+        [
+          18.0,
+          14.0
+        ],
+        [
+          1915.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg026_A": {
+      "patient": 13,
+      "group": 1,
+      "spot": "26_A",
+      "cell_count": 2346,
+      "eligible_count": 2316,
+      "tumor_count": 87,
+      "cd8_count": 252,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1436.0
+        ]
+      ]
+    },
+    "reg026_B": {
+      "patient": 13,
+      "group": 1,
+      "spot": "26_B",
+      "cell_count": 2748,
+      "eligible_count": 2720,
+      "tumor_count": 80,
+      "cd8_count": 76,
+      "bounds": [
+        [
+          19.0,
+          13.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg027_A": {
+      "patient": 14,
+      "group": 2,
+      "spot": "27_A",
+      "cell_count": 2428,
+      "eligible_count": 2266,
+      "tumor_count": 574,
+      "cd8_count": 227,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1894.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg027_B": {
+      "patient": 14,
+      "group": 2,
+      "spot": "27_B",
+      "cell_count": 1985,
+      "eligible_count": 1100,
+      "tumor_count": 99,
+      "cd8_count": 83,
+      "bounds": [
+        [
+          32.0,
+          12.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg028_A": {
+      "patient": 14,
+      "group": 2,
+      "spot": "28_A",
+      "cell_count": 2302,
+      "eligible_count": 2260,
+      "tumor_count": 119,
+      "cd8_count": 163,
+      "bounds": [
+        [
+          8.0,
+          0.0
+        ],
+        [
+          1778.0,
+          1435.0
+        ]
+      ]
+    },
+    "reg028_B": {
+      "patient": 14,
+      "group": 2,
+      "spot": "28_B",
+      "cell_count": 2240,
+      "eligible_count": 1891,
+      "tumor_count": 357,
+      "cd8_count": 160,
+      "bounds": [
+        [
+          36.0,
+          13.0
+        ],
+        [
+          1894.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg029_A": {
+      "patient": 15,
+      "group": 2,
+      "spot": "29_A",
+      "cell_count": 2688,
+      "eligible_count": 2636,
+      "tumor_count": 1329,
+      "cd8_count": 173,
+      "bounds": [
+        [
+          4.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1434.0
+        ]
+      ]
+    },
+    "reg029_B": {
+      "patient": 15,
+      "group": 2,
+      "spot": "29_B",
+      "cell_count": 2025,
+      "eligible_count": 2007,
+      "tumor_count": 147,
+      "cd8_count": 59,
+      "bounds": [
+        [
+          33.0,
+          11.0
+        ],
+        [
+          1914.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg030_A": {
+      "patient": 15,
+      "group": 2,
+      "spot": "30_A",
+      "cell_count": 2378,
+      "eligible_count": 2116,
+      "tumor_count": 310,
+      "cd8_count": 230,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg030_B": {
+      "patient": 15,
+      "group": 2,
+      "spot": "30_B",
+      "cell_count": 2134,
+      "eligible_count": 2081,
+      "tumor_count": 576,
+      "cd8_count": 57,
+      "bounds": [
+        [
+          32.0,
+          9.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg031_A": {
+      "patient": 16,
+      "group": 2,
+      "spot": "31_A",
+      "cell_count": 2673,
+      "eligible_count": 2434,
+      "tumor_count": 1004,
+      "cd8_count": 241,
+      "bounds": [
+        [
+          7.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg031_B": {
+      "patient": 16,
+      "group": 2,
+      "spot": "31_B",
+      "cell_count": 2206,
+      "eligible_count": 2077,
+      "tumor_count": 178,
+      "cd8_count": 98,
+      "bounds": [
+        [
+          15.0,
+          10.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg032_A": {
+      "patient": 16,
+      "group": 2,
+      "spot": "32_A",
+      "cell_count": 2792,
+      "eligible_count": 2634,
+      "tumor_count": 902,
+      "cd8_count": 172,
+      "bounds": [
+        [
+          11.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg032_B": {
+      "patient": 16,
+      "group": 2,
+      "spot": "32_B",
+      "cell_count": 1616,
+      "eligible_count": 1550,
+      "tumor_count": 181,
+      "cd8_count": 87,
+      "bounds": [
+        [
+          14.0,
+          15.0
+        ],
+        [
+          1907.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg033_A": {
+      "patient": 17,
+      "group": 1,
+      "spot": "33_A",
+      "cell_count": 2802,
+      "eligible_count": 2786,
+      "tumor_count": 32,
+      "cd8_count": 379,
+      "bounds": [
+        [
+          7.0,
+          0.0
+        ],
+        [
+          1872.0,
+          1438.0
+        ]
+      ]
+    },
+    "reg033_B": {
+      "patient": 17,
+      "group": 1,
+      "spot": "33_B",
+      "cell_count": 3467,
+      "eligible_count": 3390,
+      "tumor_count": 177,
+      "cd8_count": 237,
+      "bounds": [
+        [
+          10.0,
+          15.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg034_A": {
+      "patient": 17,
+      "group": 1,
+      "spot": "34_A",
+      "cell_count": 2154,
+      "eligible_count": 2147,
+      "tumor_count": 40,
+      "cd8_count": 518,
+      "bounds": [
+        [
+          6.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg034_B": {
+      "patient": 17,
+      "group": 1,
+      "spot": "34_B",
+      "cell_count": 2107,
+      "eligible_count": 2098,
+      "tumor_count": 770,
+      "cd8_count": 32,
+      "bounds": [
+        [
+          14.0,
+          13.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg035_A": {
+      "patient": 18,
+      "group": 2,
+      "spot": "35_A",
+      "cell_count": 2800,
+      "eligible_count": 2699,
+      "tumor_count": 687,
+      "cd8_count": 83,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1900.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg035_B": {
+      "patient": 18,
+      "group": 2,
+      "spot": "35_B",
+      "cell_count": 2266,
+      "eligible_count": 2221,
+      "tumor_count": 171,
+      "cd8_count": 89,
+      "bounds": [
+        [
+          16.0,
+          12.0
+        ],
+        [
+          1888.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg036_A": {
+      "patient": 18,
+      "group": 2,
+      "spot": "36_A",
+      "cell_count": 3402,
+      "eligible_count": 3292,
+      "tumor_count": 407,
+      "cd8_count": 174,
+      "bounds": [
+        [
+          24.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1434.0
+        ]
+      ]
+    },
+    "reg036_B": {
+      "patient": 18,
+      "group": 2,
+      "spot": "36_B",
+      "cell_count": 3303,
+      "eligible_count": 3239,
+      "tumor_count": 1268,
+      "cd8_count": 43,
+      "bounds": [
+        [
+          11.0,
+          11.0
+        ],
+        [
+          1917.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg037_A": {
+      "patient": 19,
+      "group": 1,
+      "spot": "37_A",
+      "cell_count": 1541,
+      "eligible_count": 1537,
+      "tumor_count": 34,
+      "cd8_count": 74,
+      "bounds": [
+        [
+          64.0,
+          26.0
+        ],
+        [
+          1868.0,
+          1435.0
+        ]
+      ]
+    },
+    "reg037_B": {
+      "patient": 19,
+      "group": 1,
+      "spot": "37_B",
+      "cell_count": 406,
+      "eligible_count": 402,
+      "tumor_count": 7,
+      "cd8_count": 16,
+      "bounds": [
+        [
+          118.0,
+          16.0
+        ],
+        [
+          1894.0,
+          1435.0
+        ]
+      ]
+    },
+    "reg038_A": {
+      "patient": 19,
+      "group": 1,
+      "spot": "38_A",
+      "cell_count": 2652,
+      "eligible_count": 2516,
+      "tumor_count": 21,
+      "cd8_count": 137,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1879.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg038_B": {
+      "patient": 19,
+      "group": 1,
+      "spot": "38_B",
+      "cell_count": 1816,
+      "eligible_count": 1645,
+      "tumor_count": 43,
+      "cd8_count": 39,
+      "bounds": [
+        [
+          16.0,
+          10.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg039_A": {
+      "patient": 20,
+      "group": 1,
+      "spot": "39_A",
+      "cell_count": 2505,
+      "eligible_count": 2324,
+      "tumor_count": 194,
+      "cd8_count": 66,
+      "bounds": [
+        [
+          0.0,
+          32.0
+        ],
+        [
+          1900.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg039_B": {
+      "patient": 20,
+      "group": 1,
+      "spot": "39_B",
+      "cell_count": 783,
+      "eligible_count": 741,
+      "tumor_count": 22,
+      "cd8_count": 18,
+      "bounds": [
+        [
+          69.0,
+          12.0
+        ],
+        [
+          1815.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg040_A": {
+      "patient": 20,
+      "group": 1,
+      "spot": "40_A",
+      "cell_count": 2173,
+      "eligible_count": 2098,
+      "tumor_count": 285,
+      "cd8_count": 67,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg040_B": {
+      "patient": 20,
+      "group": 1,
+      "spot": "40_B",
+      "cell_count": 856,
+      "eligible_count": 844,
+      "tumor_count": 44,
+      "cd8_count": 24,
+      "bounds": [
+        [
+          47.0,
+          13.0
+        ],
+        [
+          1743.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg041_A": {
+      "patient": 21,
+      "group": 1,
+      "spot": "41_A",
+      "cell_count": 2217,
+      "eligible_count": 2144,
+      "tumor_count": 833,
+      "cd8_count": 105,
+      "bounds": [
+        [
+          6.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg041_B": {
+      "patient": 21,
+      "group": 1,
+      "spot": "41_B",
+      "cell_count": 2297,
+      "eligible_count": 2093,
+      "tumor_count": 1420,
+      "cd8_count": 27,
+      "bounds": [
+        [
+          93.0,
+          12.0
+        ],
+        [
+          1858.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg042_A": {
+      "patient": 21,
+      "group": 1,
+      "spot": "42_A",
+      "cell_count": 2581,
+      "eligible_count": 2547,
+      "tumor_count": 1862,
+      "cd8_count": 37,
+      "bounds": [
+        [
+          2.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg042_B": {
+      "patient": 21,
+      "group": 1,
+      "spot": "42_B",
+      "cell_count": 2089,
+      "eligible_count": 2071,
+      "tumor_count": 173,
+      "cd8_count": 25,
+      "bounds": [
+        [
+          12.0,
+          15.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg043_A": {
+      "patient": 22,
+      "group": 2,
+      "spot": "43_A",
+      "cell_count": 1889,
+      "eligible_count": 1861,
+      "tumor_count": 856,
+      "cd8_count": 301,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1913.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg043_B": {
+      "patient": 22,
+      "group": 2,
+      "spot": "43_B",
+      "cell_count": 2353,
+      "eligible_count": 567,
+      "tumor_count": 398,
+      "cd8_count": 6,
+      "bounds": [
+        [
+          37.0,
+          23.0
+        ],
+        [
+          1826.0,
+          1428.0
+        ]
+      ]
+    },
+    "reg044_A": {
+      "patient": 22,
+      "group": 2,
+      "spot": "44_A",
+      "cell_count": 1027,
+      "eligible_count": 803,
+      "tumor_count": 23,
+      "cd8_count": 297,
+      "bounds": [
+        [
+          25.0,
+          0.0
+        ],
+        [
+          1743.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg044_B": {
+      "patient": 22,
+      "group": 2,
+      "spot": "44_B",
+      "cell_count": 666,
+      "eligible_count": 420,
+      "tumor_count": 191,
+      "cd8_count": 37,
+      "bounds": [
+        [
+          222.0,
+          54.0
+        ],
+        [
+          1889.0,
+          1339.0
+        ]
+      ]
+    },
+    "reg045_A": {
+      "patient": 23,
+      "group": 2,
+      "spot": "45_A",
+      "cell_count": 2674,
+      "eligible_count": 2631,
+      "tumor_count": 1490,
+      "cd8_count": 91,
+      "bounds": [
+        [
+          73.0,
+          0.0
+        ],
+        [
+          1828.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg045_B": {
+      "patient": 23,
+      "group": 2,
+      "spot": "45_B",
+      "cell_count": 991,
+      "eligible_count": 954,
+      "tumor_count": 13,
+      "cd8_count": 39,
+      "bounds": [
+        [
+          91.0,
+          10.0
+        ],
+        [
+          1868.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg046_A": {
+      "patient": 23,
+      "group": 2,
+      "spot": "46_A",
+      "cell_count": 2137,
+      "eligible_count": 1754,
+      "tumor_count": 142,
+      "cd8_count": 280,
+      "bounds": [
+        [
+          62.0,
+          0.0
+        ],
+        [
+          1762.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg046_B": {
+      "patient": 23,
+      "group": 2,
+      "spot": "46_B",
+      "cell_count": 2330,
+      "eligible_count": 2129,
+      "tumor_count": 686,
+      "cd8_count": 139,
+      "bounds": [
+        [
+          10.0,
+          9.0
+        ],
+        [
+          1882.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg047_A": {
+      "patient": 24,
+      "group": 1,
+      "spot": "47_A",
+      "cell_count": 1877,
+      "eligible_count": 1792,
+      "tumor_count": 94,
+      "cd8_count": 210,
+      "bounds": [
+        [
+          41.0,
+          0.0
+        ],
+        [
+          1764.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg047_B": {
+      "patient": 24,
+      "group": 1,
+      "spot": "47_B",
+      "cell_count": 979,
+      "eligible_count": 960,
+      "tumor_count": 3,
+      "cd8_count": 19,
+      "bounds": [
+        [
+          61.0,
+          9.0
+        ],
+        [
+          1897.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg048_A": {
+      "patient": 24,
+      "group": 1,
+      "spot": "48_A",
+      "cell_count": 1888,
+      "eligible_count": 1763,
+      "tumor_count": 122,
+      "cd8_count": 103,
+      "bounds": [
+        [
+          13.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg048_B": {
+      "patient": 24,
+      "group": 1,
+      "spot": "48_B",
+      "cell_count": 1598,
+      "eligible_count": 1543,
+      "tumor_count": 71,
+      "cd8_count": 73,
+      "bounds": [
+        [
+          40.0,
+          10.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg049_A": {
+      "patient": 25,
+      "group": 2,
+      "spot": "49_A",
+      "cell_count": 2446,
+      "eligible_count": 2425,
+      "tumor_count": 822,
+      "cd8_count": 487,
+      "bounds": [
+        [
+          3.0,
+          0.0
+        ],
+        [
+          1907.0,
+          1436.0
+        ]
+      ]
+    },
+    "reg049_B": {
+      "patient": 25,
+      "group": 2,
+      "spot": "49_B",
+      "cell_count": 1267,
+      "eligible_count": 1230,
+      "tumor_count": 286,
+      "cd8_count": 146,
+      "bounds": [
+        [
+          11.0,
+          10.0
+        ],
+        [
+          1853.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg050_A": {
+      "patient": 25,
+      "group": 2,
+      "spot": "50_A",
+      "cell_count": 1072,
+      "eligible_count": 1067,
+      "tumor_count": 7,
+      "cd8_count": 289,
+      "bounds": [
+        [
+          80.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg050_B": {
+      "patient": 25,
+      "group": 2,
+      "spot": "50_B",
+      "cell_count": 1614,
+      "eligible_count": 1588,
+      "tumor_count": 106,
+      "cd8_count": 109,
+      "bounds": [
+        [
+          11.0,
+          10.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg051_A": {
+      "patient": 26,
+      "group": 2,
+      "spot": "51_A",
+      "cell_count": 1621,
+      "eligible_count": 1603,
+      "tumor_count": 365,
+      "cd8_count": 118,
+      "bounds": [
+        [
+          9.0,
+          12.0
+        ],
+        [
+          1874.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg051_B": {
+      "patient": 26,
+      "group": 2,
+      "spot": "51_B",
+      "cell_count": 1792,
+      "eligible_count": 1777,
+      "tumor_count": 337,
+      "cd8_count": 79,
+      "bounds": [
+        [
+          17.0,
+          10.0
+        ],
+        [
+          1894.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg052_A": {
+      "patient": 26,
+      "group": 2,
+      "spot": "52_A",
+      "cell_count": 1930,
+      "eligible_count": 1924,
+      "tumor_count": 336,
+      "cd8_count": 242,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1865.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg052_B": {
+      "patient": 26,
+      "group": 2,
+      "spot": "52_B",
+      "cell_count": 2192,
+      "eligible_count": 2140,
+      "tumor_count": 944,
+      "cd8_count": 169,
+      "bounds": [
+        [
+          10.0,
+          9.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg053_A": {
+      "patient": 27,
+      "group": 2,
+      "spot": "53_A",
+      "cell_count": 2015,
+      "eligible_count": 1649,
+      "tumor_count": 276,
+      "cd8_count": 392,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg053_B": {
+      "patient": 27,
+      "group": 2,
+      "spot": "53_B",
+      "cell_count": 155,
+      "eligible_count": 136,
+      "tumor_count": 47,
+      "cd8_count": 1,
+      "bounds": [
+        [
+          375.0,
+          213.0
+        ],
+        [
+          1443.0,
+          1015.0
+        ]
+      ]
+    },
+    "reg054_A": {
+      "patient": 27,
+      "group": 2,
+      "spot": "54_A",
+      "cell_count": 1631,
+      "eligible_count": 1323,
+      "tumor_count": 104,
+      "cd8_count": 440,
+      "bounds": [
+        [
+          33.0,
+          0.0
+        ],
+        [
+          1800.0,
+          1436.0
+        ]
+      ]
+    },
+    "reg054_B": {
+      "patient": 27,
+      "group": 2,
+      "spot": "54_B",
+      "cell_count": 325,
+      "eligible_count": 259,
+      "tumor_count": 116,
+      "cd8_count": 5,
+      "bounds": [
+        [
+          620.0,
+          82.0
+        ],
+        [
+          1518.0,
+          1376.0
+        ]
+      ]
+    },
+    "reg055_A": {
+      "patient": 28,
+      "group": 1,
+      "spot": "55_A",
+      "cell_count": 3887,
+      "eligible_count": 3411,
+      "tumor_count": 255,
+      "cd8_count": 328,
+      "bounds": [
+        [
+          5.0,
+          0.0
+        ],
+        [
+          1903.0,
+          1436.0
+        ]
+      ]
+    },
+    "reg055_B": {
+      "patient": 28,
+      "group": 1,
+      "spot": "55_B",
+      "cell_count": 135,
+      "eligible_count": 116,
+      "tumor_count": 12,
+      "cd8_count": 3,
+      "bounds": [
+        [
+          139.0,
+          89.0
+        ],
+        [
+          1726.0,
+          1389.0
+        ]
+      ]
+    },
+    "reg056_A": {
+      "patient": 28,
+      "group": 1,
+      "spot": "56_A",
+      "cell_count": 844,
+      "eligible_count": 795,
+      "tumor_count": 101,
+      "cd8_count": 58,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1904.0,
+          1430.0
+        ]
+      ]
+    },
+    "reg056_B": {
+      "patient": 28,
+      "group": 1,
+      "spot": "56_B",
+      "cell_count": 1429,
+      "eligible_count": 1313,
+      "tumor_count": 363,
+      "cd8_count": 41,
+      "bounds": [
+        [
+          40.0,
+          11.0
+        ],
+        [
+          1851.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg057_A": {
+      "patient": 29,
+      "group": 1,
+      "spot": "57_A",
+      "cell_count": 84,
+      "eligible_count": 72,
+      "tumor_count": 19,
+      "cd8_count": 1,
+      "bounds": [
+        [
+          30.0,
+          12.0
+        ],
+        [
+          1429.0,
+          1383.0
+        ]
+      ]
+    },
+    "reg057_B": {
+      "patient": 29,
+      "group": 1,
+      "spot": "57_B",
+      "cell_count": 1073,
+      "eligible_count": 998,
+      "tumor_count": 119,
+      "cd8_count": 16,
+      "bounds": [
+        [
+          49.0,
+          13.0
+        ],
+        [
+          1780.0,
+          1245.0
+        ]
+      ]
+    },
+    "reg058_A": {
+      "patient": 29,
+      "group": 1,
+      "spot": "58_A",
+      "cell_count": 2283,
+      "eligible_count": 2202,
+      "tumor_count": 1877,
+      "cd8_count": 12,
+      "bounds": [
+        [
+          5.0,
+          0.0
+        ],
+        [
+          1795.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg058_B": {
+      "patient": 29,
+      "group": 1,
+      "spot": "58_B",
+      "cell_count": 1789,
+      "eligible_count": 1613,
+      "tumor_count": 1415,
+      "cd8_count": 5,
+      "bounds": [
+        [
+          14.0,
+          8.0
+        ],
+        [
+          1910.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg059_A": {
+      "patient": 30,
+      "group": 2,
+      "spot": "59_A",
+      "cell_count": 2926,
+      "eligible_count": 2838,
+      "tumor_count": 176,
+      "cd8_count": 200,
+      "bounds": [
+        [
+          62.0,
+          0.0
+        ],
+        [
+          1915.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg059_B": {
+      "patient": 30,
+      "group": 2,
+      "spot": "59_B",
+      "cell_count": 1833,
+      "eligible_count": 1713,
+      "tumor_count": 44,
+      "cd8_count": 78,
+      "bounds": [
+        [
+          73.0,
+          7.0
+        ],
+        [
+          1862.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg060_A": {
+      "patient": 30,
+      "group": 2,
+      "spot": "60_A",
+      "cell_count": 2415,
+      "eligible_count": 2355,
+      "tumor_count": 99,
+      "cd8_count": 208,
+      "bounds": [
+        [
+          122.0,
+          0.0
+        ],
+        [
+          1814.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg060_B": {
+      "patient": 30,
+      "group": 2,
+      "spot": "60_B",
+      "cell_count": 2305,
+      "eligible_count": 2086,
+      "tumor_count": 45,
+      "cd8_count": 49,
+      "bounds": [
+        [
+          61.0,
+          9.0
+        ],
+        [
+          1857.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg061_A": {
+      "patient": 31,
+      "group": 2,
+      "spot": "61_A",
+      "cell_count": 1980,
+      "eligible_count": 1823,
+      "tumor_count": 215,
+      "cd8_count": 149,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1914.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg061_B": {
+      "patient": 31,
+      "group": 2,
+      "spot": "61_B",
+      "cell_count": 1804,
+      "eligible_count": 1761,
+      "tumor_count": 229,
+      "cd8_count": 92,
+      "bounds": [
+        [
+          10.0,
+          7.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg062_A": {
+      "patient": 31,
+      "group": 2,
+      "spot": "62_A",
+      "cell_count": 2500,
+      "eligible_count": 2362,
+      "tumor_count": 30,
+      "cd8_count": 250,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg062_B": {
+      "patient": 31,
+      "group": 2,
+      "spot": "62_B",
+      "cell_count": 1398,
+      "eligible_count": 1355,
+      "tumor_count": 182,
+      "cd8_count": 52,
+      "bounds": [
+        [
+          39.0,
+          6.0
+        ],
+        [
+          1915.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg063_A": {
+      "patient": 32,
+      "group": 1,
+      "spot": "63_A",
+      "cell_count": 961,
+      "eligible_count": 450,
+      "tumor_count": 160,
+      "cd8_count": 38,
+      "bounds": [
+        [
+          53.0,
+          0.0
+        ],
+        [
+          1892.0,
+          1433.0
+        ]
+      ]
+    },
+    "reg063_B": {
+      "patient": 32,
+      "group": 1,
+      "spot": "63_B",
+      "cell_count": 939,
+      "eligible_count": 708,
+      "tumor_count": 146,
+      "cd8_count": 29,
+      "bounds": [
+        [
+          20.0,
+          9.0
+        ],
+        [
+          1837.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg064_A": {
+      "patient": 32,
+      "group": 1,
+      "spot": "64_A",
+      "cell_count": 2113,
+      "eligible_count": 2031,
+      "tumor_count": 130,
+      "cd8_count": 221,
+      "bounds": [
+        [
+          23.0,
+          0.0
+        ],
+        [
+          1908.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg064_B": {
+      "patient": 32,
+      "group": 1,
+      "spot": "64_B",
+      "cell_count": 2014,
+      "eligible_count": 1638,
+      "tumor_count": 291,
+      "cd8_count": 115,
+      "bounds": [
+        [
+          19.0,
+          9.0
+        ],
+        [
+          1871.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg065_A": {
+      "patient": 33,
+      "group": 1,
+      "spot": "65_A",
+      "cell_count": 2304,
+      "eligible_count": 1888,
+      "tumor_count": 1320,
+      "cd8_count": 95,
+      "bounds": [
+        [
+          41.0,
+          0.0
+        ],
+        [
+          1875.0,
+          1435.0
+        ]
+      ]
+    },
+    "reg065_B": {
+      "patient": 33,
+      "group": 1,
+      "spot": "65_B",
+      "cell_count": 427,
+      "eligible_count": 390,
+      "tumor_count": 7,
+      "cd8_count": 54,
+      "bounds": [
+        [
+          64.0,
+          13.0
+        ],
+        [
+          1862.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg066_A": {
+      "patient": 33,
+      "group": 1,
+      "spot": "66_A",
+      "cell_count": 1799,
+      "eligible_count": 1780,
+      "tumor_count": 8,
+      "cd8_count": 181,
+      "bounds": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1827.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg066_B": {
+      "patient": 33,
+      "group": 1,
+      "spot": "66_B",
+      "cell_count": 1062,
+      "eligible_count": 901,
+      "tumor_count": 41,
+      "cd8_count": 19,
+      "bounds": [
+        [
+          43.0,
+          12.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg067_A": {
+      "patient": 34,
+      "group": 1,
+      "spot": "67_A",
+      "cell_count": 698,
+      "eligible_count": 646,
+      "tumor_count": 91,
+      "cd8_count": 40,
+      "bounds": [
+        [
+          42.0,
+          0.0
+        ],
+        [
+          1846.0,
+          1423.0
+        ]
+      ]
+    },
+    "reg067_B": {
+      "patient": 34,
+      "group": 1,
+      "spot": "67_B",
+      "cell_count": 85,
+      "eligible_count": 82,
+      "tumor_count": 9,
+      "cd8_count": 1,
+      "bounds": [
+        [
+          200.0,
+          9.0
+        ],
+        [
+          1721.0,
+          1385.0
+        ]
+      ]
+    },
+    "reg068_A": {
+      "patient": 34,
+      "group": 1,
+      "spot": "68_A",
+      "cell_count": 1252,
+      "eligible_count": 1216,
+      "tumor_count": 108,
+      "cd8_count": 78,
+      "bounds": [
+        [
+          0.0,
+          2.0
+        ],
+        [
+          1919.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg068_B": {
+      "patient": 34,
+      "group": 1,
+      "spot": "68_B",
+      "cell_count": 1504,
+      "eligible_count": 1224,
+      "tumor_count": 83,
+      "cd8_count": 146,
+      "bounds": [
+        [
+          62.0,
+          8.0
+        ],
+        [
+          1855.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg069_A": {
+      "patient": 35,
+      "group": 1,
+      "spot": "69_A",
+      "cell_count": 1473,
+      "eligible_count": 1295,
+      "tumor_count": 302,
+      "cd8_count": 86,
+      "bounds": [
+        [
+          37.0,
+          0.0
+        ],
+        [
+          1894.0,
+          1432.0
+        ]
+      ]
+    },
+    "reg069_B": {
+      "patient": 35,
+      "group": 1,
+      "spot": "69_B",
+      "cell_count": 872,
+      "eligible_count": 675,
+      "tumor_count": 39,
+      "cd8_count": 42,
+      "bounds": [
+        [
+          51.0,
+          7.0
+        ],
+        [
+          1908.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg070_A": {
+      "patient": 35,
+      "group": 1,
+      "spot": "70_A",
+      "cell_count": 1844,
+      "eligible_count": 1778,
+      "tumor_count": 762,
+      "cd8_count": 21,
+      "bounds": [
+        [
+          35.0,
+          0.0
+        ],
+        [
+          1888.0,
+          1439.0
+        ]
+      ]
+    },
+    "reg070_B": {
+      "patient": 35,
+      "group": 1,
+      "spot": "70_B",
+      "cell_count": 1025,
+      "eligible_count": 762,
+      "tumor_count": 281,
+      "cd8_count": 22,
+      "bounds": [
+        [
+          62.0,
+          5.0
+        ],
+        [
+          1858.0,
+          1439.0
+        ]
+      ]
+    }
+  },
+  "excluded_annotations": [
+    "dirt",
+    "immune cells / vasculature",
+    "tumor cells / immune cells",
+    "undefined"
+  ],
+  "exclusions": {
+    "dirt": 7357,
+    "undefined": 6524,
+    "immune cells / vasculature": 2153,
+    "tumor cells / immune cells": 1797
+  },
+  "units": {
+    "xy": "native source pixels; no registered micron calibration applied",
+    "markers": "author-processed fluorescence intensity, arbitrary units"
+  },
+  "representation": "Original row order, IDs, coordinates, selected float64 intensities and annotations; no rounding, imputation or relabelling",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Sch\u00fcrch, Christian (2020), Coordinated cellular neighborhoods orchestrate antitumoral immunity at the colorectal cancer invasive front, Mendeley Data, V1, doi:10.17632/mpjzbtfgfr.1"
+}

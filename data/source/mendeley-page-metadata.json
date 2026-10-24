@@ -1,0 +1,121 @@
+{
+  "id": "mpjzbtfgfr",
+  "version": 1,
+  "name": "Coordinated cellular neighborhoods orchestrate antitumoral immunity at the colorectal cancer invasive front",
+  "description": "A previously established highly multiplexed tissue cytometry platform called CO-Detection by indEXing (CODEX) was re-engineered here here to create multidimensional imaging datasets of human colorectal cancer (CRC) tissue microarrays from archival, paraffin-embedded samples and tissue microarrays (TMAs). In this procedure, DNA-barcoded antibodies bound to antigens present in the tissue were iteratively rendered visible by hybridizing complementary fluorescent DNA oligonucleotides. An algorithmic pipeline was used to process raw imaging data, segment and identify single cells and their localizations within tissues, and quantify their marker expression. Unsupervised clustering, followed by manual curation of clusters based on marker expression, morphology and tissue localization, was used to call out specific cell types. Expression of selected markers per cell were manually gated in CellEngine (https://cellengine.com). Cellular neighborhoods were algorithmically identified. We identified nine conserved, distinct cellular neighborhoods (CNs)\u2013a collection of components characteristic of the CRC iTME. Enrichment of PD-1+CD4+ T cells only within a granulocyte CN positively correlated with survival in a high-risk patient subset. Coupling of tumor and immune CNs, fragmentation of T cell and macrophage CNs, and disruption of inter-CN communication was associated with inferior outcomes. This study provides a framework for interrogating how complex biological processes, such as antitumoral immunity, occur through the concerted actions of cells and spatial domains.\n\nCRC_clusters_neighborhoods_markers.csv table contains cell types annotation, expression profiles, coordinates, neighborhood affiliation of all segmented objected identified in the TMAs analyzed in this study. In addition, it contains information on the expression of selected markers Ki-67, PD-1 and ICOS on macrophage populations and T cell subsets.",
+  "method": "All the data in the table was derived from original image data (to be made available at The Cancer Imaging Archive, request pending; or directly from the authors upon request ) using the computational tools which can be downloaded from https://github.com/nolanlab/CODEX, and used on https://cellengine.com.",
+  "doi": "10.17632/mpjzbtfgfr.1",
+  "publish_date": "2020-08-13T15:36:26.582Z",
+  "embargo_date": "2020-08-06T23:59:59.000Z",
+  "last_modification_date": "2020-08-13T15:36:09.545Z",
+  "is_confidential": false,
+  "customer": {
+    "id": "7377952c-6404-4428-bbfc-77242cfc301e",
+    "name": "Mendeley Guests",
+    "chief_id": 810289,
+    "config": {
+      "repository_id": "MENDELEY_DATA",
+      "dataset_size_limit": 10737418240,
+      "doi_prefix": "10.17632"
+    },
+    "is_user_mendeley_admin": false,
+    "customer_roles": [],
+    "is_guest": true,
+    "is_user_customer_moderator": false
+  },
+  "owner": {
+    "id": "723de783-a2e7-3193-a1f7-7a626f4b8fd3",
+    "first_name": "Christian",
+    "last_name": "Sch\u00fcrch",
+    "display_name": "Christian Sch\u00fcrch",
+    "$ref": "/profiles/723de783-a2e7-3193-a1f7-7a626f4b8fd3"
+  },
+  "categories": [
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-190195158",
+      "label": "Microscopy"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-190293640",
+      "label": "Cancer"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-249564247",
+      "label": "Fluorescence"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-250232895",
+      "label": "Colorectal Cancer"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-253042482",
+      "label": "Multiplexing"
+    },
+    {
+      "id": "data.elsevier.com/vocabulary/OmniScience/Concept-261061487",
+      "label": "Lymphoid Tissue"
+    }
+  ],
+  "licence": {
+    "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+    "short_name": "CC BY 4.0",
+    "full_name": "Creative Commons Attribution 4.0 International",
+    "description": "You can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+    "url": "http://creativecommons.org/licenses/by/4.0",
+    "category": "Creative",
+    "customer_id": null
+  },
+  "institutions": [
+    {
+      "id": "86c0babc-07fe-594b-baf3-4195b0ea2d20",
+      "name": "Universitat Bern"
+    },
+    {
+      "id": "aa1a9d6a-538c-5f58-b674-31c2823b1acc",
+      "name": "Stanford University"
+    }
+  ],
+  "organisational_unit_names": [],
+  "contributors": [
+    {
+      "id": "723de783-a2e7-3193-a1f7-7a626f4b8fd3",
+      "first_name": "Christian",
+      "last_name": "Sch\u00fcrch",
+      "$ref": "/profiles/723de783-a2e7-3193-a1f7-7a626f4b8fd3"
+    }
+  ],
+  "related_links": [
+    {
+      "relation_type": "source_of",
+      "href": "https://www.cancerimagingarchive.net/---direct link to follow---",
+      "source_type": "dataset"
+    },
+    {
+      "relation_type": "related_to",
+      "href": "https://github.com/nolanlab/CODEX",
+      "source_type": "software"
+    },
+    {
+      "relation_type": "related_to",
+      "href": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3440263",
+      "source_type": "article"
+    },
+    {
+      "relation_type": "related_to",
+      "href": "https://www.biorxiv.org/content/10.1101/743989v1",
+      "source_type": "article"
+    },
+    {
+      "relation_type": "related_to",
+      "href": "https://cellengine.com/#/experiments/5ea1170788ae4203c2959042",
+      "source_type": "software"
+    },
+    {
+      "relation_type": "related_to",
+      "href": "https://github.com/nolanlab/NeighborhoodCoordination",
+      "source_type": "article"
+    }
+  ],
+  "custom_metadata": {},
+  "is_metadata_only": false
+}

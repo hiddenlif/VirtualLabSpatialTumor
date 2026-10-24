@@ -1,0 +1,11 @@
+.runtime/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+data/source/*.csv
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example

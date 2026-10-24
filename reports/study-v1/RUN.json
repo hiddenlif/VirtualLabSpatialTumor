@@ -1,0 +1,27 @@
+{
+  "command": "python3 scripts/run_study.py --out NEW_DIRECTORY",
+  "scientific_sources": {
+    "PLAN.json": "e9b3097e2249025ad6401508983927c741ecbeca7ab83e80d2ce0b89974c7099",
+    "data/derived/manifest.json": "89b67b5a57aa449c29cde0533a329a8bb731bd62fda421e08eb63ef7c18bf5aa",
+    "spatial_lab/__init__.py": "c82a5e75eb0d0dfe8bcdf476f23e4d585ba659a7adcfa4fd5586e993b22dc48d",
+    "spatial_lab/data.py": "60672169d878e9e61d63fed0926115fa812ad529ed8d83c0db2292aeae3c3fbb",
+    "spatial_lab/analysis.py": "9fb8394aa7bedbb244153e32ca74bb2ea97b56c3e0a277d4ff67cc533e74e16c",
+    "spatial_lab/reconstruction.py": "d7afe53ae814e60d2e30bc84493d41acac2bfdfd02802e82366f818dbecd1b55",
+    "spatial_lab/movement.py": "8cea7ce3d79765858e7d557d01b54816cb47078e8935afb0a89379ebcb2b71d4",
+    "scripts/prepare_data.py": "3a1e2b6f3cbc6fbc9b15e2f34fc5d6804a30090e94115e082692f09cc13df7da",
+    "scripts/run_study.py": "3bf98737a178c5bd68c0383113c0431e50ea2bed80a2835769ddfe21df10f9a9"
+  },
+  "plan_sha256": "65714f82cd2fd1233b1c346de513ce936d717c6a034ed6115ffe3790a19699bf",
+  "artifacts": {
+    "development-selection.json": "a45d5691a6e811fd02d31a1c7e75d87c3e5e5daf0152385d639dc92441f314d8",
+    "model.json": "7c492708725c4ade394281b6efb50765140a192d37c117f8392b83768664e830",
+    "movement.json": "df6a939d6024224ca5443a07825ebff5785838bb402cd1cedc1bc55174f5dee9",
+    "reconstruction.csv": "c126e1fd59d9352f576c03449fe0b75fc24043c98d9326758ca0a6f231098e69",
+    "reconstruction.json": "73c4d9d1c1c863cda8ccb5ba3ff69c22cd754f32e48afa879208a7860113a435",
+    "regions.csv": "585054597f677c38146497f64c596203f3c0b0b45cdd834ebb60122601df3bd0",
+    "regions.json": "a5636fa66038f799241d52eb5a4e1dbc1632befe3ab6f9dd1d4822a7af4be39a",
+    "sensitivity.json": "94bf9a83668ad93293a10bd72b41205288225d292cfc2f4968ca45c7afe76dcf",
+    "summary.json": "35df8d6187eec671644a873ceee545292fd748b33ad86a866c4360acc0c06918"
+  },
+  "model_calls": 0
+}

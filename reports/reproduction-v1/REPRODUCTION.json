@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "artifacts": [
+    {
+      "artifact": "regions.json",
+      "exact": true
+    },
+    {
+      "artifact": "regions.csv",
+      "exact": true
+    },
+    {
+      "artifact": "sensitivity.json",
+      "exact": true
+    },
+    {
+      "artifact": "development-selection.json",
+      "exact": true
+    },
+    {
+      "artifact": "model.json",
+      "exact": true
+    },
+    {
+      "artifact": "reconstruction.json",
+      "exact": true
+    },
+    {
+      "artifact": "reconstruction.csv",
+      "exact": true
+    },
+    {
+      "artifact": "movement.json",
+      "exact": true
+    }
+  ],
+  "summary_equal_except_run_timestamp": true,
+  "reference_regions": 140,
+  "reconstruction_cases": 504,
+  "movement_runs": 90,
+  "new_external_model_calls": 0
+}

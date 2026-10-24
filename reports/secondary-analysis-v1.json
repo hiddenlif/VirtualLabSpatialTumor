@@ -1,0 +1,218 @@
+{
+  "worst_proximity_reconstructions": [
+    {
+      "region": "reg070_A",
+      "patient": 35,
+      "method": "median",
+      "pattern": "band",
+      "seed": 101,
+      "hidden_cells": 533,
+      "rmse_log1p": 2.571955965650921,
+      "mae_log1p": 1.7926240561439426,
+      "marker_high_threshold_log1p": 6.86053689069212,
+      "true_marker_high_access": 0.7142857142857143,
+      "reconstructed_marker_high_access": 0.9230769230769231,
+      "access_absolute_error": 0.20879120879120883,
+      "interval90_coverage": null,
+      "model_sha256": "e4f7cefd8b0106127c12b5a26ff320d4105578876ea2b15c5efd2814bd1d9a33",
+      "target": "processed CD8 intensity; marker-high is not a CD8 T-cell identity call"
+    },
+    {
+      "region": "reg070_A",
+      "patient": 35,
+      "method": "spatial",
+      "pattern": "band",
+      "seed": 101,
+      "hidden_cells": 533,
+      "rmse_log1p": 2.342452698045438,
+      "mae_log1p": 1.9825312345919397,
+      "marker_high_threshold_log1p": 6.86053689069212,
+      "true_marker_high_access": 0.7142857142857143,
+      "reconstructed_marker_high_access": 0.9230769230769231,
+      "access_absolute_error": 0.20879120879120883,
+      "interval90_coverage": null,
+      "model_sha256": "e4f7cefd8b0106127c12b5a26ff320d4105578876ea2b15c5efd2814bd1d9a33",
+      "target": "processed CD8 intensity; marker-high is not a CD8 T-cell identity call"
+    },
+    {
+      "region": "reg070_A",
+      "patient": 35,
+      "method": "ridge",
+      "pattern": "band",
+      "seed": 101,
+      "hidden_cells": 533,
+      "rmse_log1p": 2.044207272734297,
+      "mae_log1p": 1.5602824875485957,
+      "marker_high_threshold_log1p": 6.86053689069212,
+      "true_marker_high_access": 0.7142857142857143,
+      "reconstructed_marker_high_access": 0.9230769230769231,
+      "access_absolute_error": 0.20879120879120883,
+      "interval90_coverage": 0.9362101313320825,
+      "model_sha256": "e4f7cefd8b0106127c12b5a26ff320d4105578876ea2b15c5efd2814bd1d9a33",
+      "target": "processed CD8 intensity; marker-high is not a CD8 T-cell identity call"
+    },
+    {
+      "region": "reg070_B",
+      "patient": 35,
+      "method": "median",
+      "pattern": "band",
+      "seed": 113,
+      "hidden_cells": 228,
+      "rmse_log1p": 3.3210639667834627,
+      "mae_log1p": 2.6644949584579134,
+      "marker_high_threshold_log1p": 6.86053689069212,
+      "true_marker_high_access": 0.4666666666666667,
+      "reconstructed_marker_high_access": 0.2857142857142857,
+      "access_absolute_error": 0.18095238095238098,
+      "interval90_coverage": null,
+      "model_sha256": "e4f7cefd8b0106127c12b5a26ff320d4105578876ea2b15c5efd2814bd1d9a33",
+      "target": "processed CD8 intensity; marker-high is not a CD8 T-cell identity call"
+    },
+    {
+      "region": "reg070_B",
+      "patient": 35,
+      "method": "spatial",
+      "pattern": "band",
+      "seed": 113,
+      "hidden_cells": 228,
+      "rmse_log1p": 2.4570528369729887,
+      "mae_log1p": 2.2299908652381495,
+      "marker_high_threshold_log1p": 6.86053689069212,
+      "true_marker_high_access": 0.4666666666666667,
+      "reconstructed_marker_high_access": 0.2857142857142857,
+      "access_absolute_error": 0.18095238095238098,
+      "interval90_coverage": null,
+      "model_sha256": "e4f7cefd8b0106127c12b5a26ff320d4105578876ea2b15c5efd2814bd1d9a33",
+      "target": "processed CD8 intensity; marker-high is not a CD8 T-cell identity call"
+    },
+    {
+      "region": "reg070_B",
+      "patient": 35,
+      "method": "ridge",
+      "pattern": "band",
+      "seed": 113,
+      "hidden_cells": 228,
+      "rmse_log1p": 2.4654097902054075,
+      "mae_log1p": 1.9772087300922543,
+      "marker_high_threshold_log1p": 6.86053689069212,
+      "true_marker_high_access": 0.4666666666666667,
+      "reconstructed_marker_high_access": 0.2857142857142857,
+      "access_absolute_error": 0.18095238095238098,
+      "interval90_coverage": 0.9122807017543859,
+      "model_sha256": "e4f7cefd8b0106127c12b5a26ff320d4105578876ea2b15c5efd2814bd1d9a33",
+      "target": "processed CD8 intensity; marker-high is not a CD8 T-cell identity call"
+    }
+  ],
+  "movement_by_permeability": [
+    {
+      "permeability": 0.1,
+      "runs": 30,
+      "mean_entry_fraction": 0.0015625,
+      "mean_centroid_contact_fraction": 0.9505208333333334
+    },
+    {
+      "permeability": 0.5,
+      "runs": 30,
+      "mean_entry_fraction": 0.003125,
+      "mean_centroid_contact_fraction": 0.9505208333333334
+    },
+    {
+      "permeability": 1,
+      "runs": 30,
+      "mean_entry_fraction": 0.003125,
+      "mean_centroid_contact_fraction": 0.9505208333333334
+    }
+  ],
+  "sensitivity_range": {
+    "min_access_ratio": 0.0,
+    "max_access_ratio": 3.3684641638225257
+  },
+  "regions_without_primary_estimand": [
+    {
+      "region": "reg001_B",
+      "patient": 1,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg016_B",
+      "patient": 8,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg019_B",
+      "patient": 10,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg021_B",
+      "patient": 11,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg037_B",
+      "patient": 19,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg043_B",
+      "patient": 22,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg045_B",
+      "patient": 23,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg047_B",
+      "patient": 24,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg050_A",
+      "patient": 25,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg053_B",
+      "patient": 27,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg054_B",
+      "patient": 27,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg055_B",
+      "patient": 28,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg057_A",
+      "patient": 29,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg058_B",
+      "patient": 29,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg065_B",
+      "patient": 33,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg066_A",
+      "patient": 33,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    },
+    {
+      "region": "reg067_B",
+      "patient": 34,
+      "reason": "Requires at least 20 tumor, 10 CD8 and 20 eligible non-tumor cells"
+    }
+  ],
+  "label": "Post-run descriptive failure and sensitivity summaries, not pre-registered confirmatory tests"
+}

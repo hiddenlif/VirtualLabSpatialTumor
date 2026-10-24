@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "reference_regions": 140,
+  "reconstruction_cases": 504,
+  "movement_runs": 90,
+  "reporting_patients": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+  ],
+  "source_and_artifact_hashes_match": true,
+  "patient_weighted_summaries_match": true,
+  "scope": "Integrity and aggregate recalculation; not an independent biological validation"
+}

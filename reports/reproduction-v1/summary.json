@@ -1,0 +1,145 @@
+{
+  "status": "EXECUTED",
+  "created_at": "2026-10-24 14:46 PDT",
+  "source_hashes": {
+    "PLAN.json": "e9b3097e2249025ad6401508983927c741ecbeca7ab83e80d2ce0b89974c7099",
+    "data/derived/manifest.json": "89b67b5a57aa449c29cde0533a329a8bb731bd62fda421e08eb63ef7c18bf5aa",
+    "spatial_lab/__init__.py": "c82a5e75eb0d0dfe8bcdf476f23e4d585ba659a7adcfa4fd5586e993b22dc48d",
+    "spatial_lab/data.py": "60672169d878e9e61d63fed0926115fa812ad529ed8d83c0db2292aeae3c3fbb",
+    "spatial_lab/analysis.py": "9fb8394aa7bedbb244153e32ca74bb2ea97b56c3e0a277d4ff67cc533e74e16c",
+    "spatial_lab/reconstruction.py": "d7afe53ae814e60d2e30bc84493d41acac2bfdfd02802e82366f818dbecd1b55",
+    "spatial_lab/movement.py": "8cea7ce3d79765858e7d557d01b54816cb47078e8935afb0a89379ebcb2b71d4",
+    "scripts/prepare_data.py": "3a1e2b6f3cbc6fbc9b15e2f34fc5d6804a30090e94115e082692f09cc13df7da",
+    "scripts/run_study.py": "3bf98737a178c5bd68c0383113c0431e50ea2bed80a2835769ddfe21df10f9a9"
+  },
+  "plan_sha256": "65714f82cd2fd1233b1c346de513ce936d717c6a034ed6115ffe3790a19699bf",
+  "data_sha256": "804d7a4e19f79d0edeef46954e1ed7a862972d53d93f498cf583c86e0f1f9240",
+  "rows": 258385,
+  "eligible_cells": 240554,
+  "patients": 35,
+  "regions": 140,
+  "eligible_regions": 123,
+  "patients_with_eligible_regions": 35,
+  "region_global_depletion_q05": 0,
+  "region_block_depletion_q05": 0,
+  "patient_mean_access_ratio": 1.0292757252926081,
+  "patient_bootstrap_mean_ci95": [
+    0.9687279572230493,
+    1.0891470579753495
+  ],
+  "patient_access_ratios": {
+    "1": 0.9983632605533184,
+    "2": 0.9311637776190683,
+    "3": 0.9293916565058067,
+    "4": 1.0724045551164103,
+    "5": 1.22991619120761,
+    "6": 0.7745339276830289,
+    "7": 1.1558252968796972,
+    "8": 0.5023051441564297,
+    "9": 0.9972377493441659,
+    "10": 1.000747390158886,
+    "11": 1.0783554581313997,
+    "12": 0.9904308296154711,
+    "13": 1.1125940356559376,
+    "14": 0.9525096781934628,
+    "15": 1.1176955535425181,
+    "16": 1.0077908375767812,
+    "17": 1.0200834148183335,
+    "18": 0.8788347133666656,
+    "19": 1.1278216998723438,
+    "20": 1.085145119723562,
+    "21": 1.5907389960726488,
+    "22": 0.7654704695400726,
+    "23": 1.0452312645361412,
+    "24": 1.0305777249976693,
+    "25": 1.044934615340929,
+    "26": 1.2941383575603829,
+    "27": 0.8730972744919221,
+    "28": 0.8780584994352877,
+    "29": 1.0188454697635487,
+    "30": 0.9834634469843883,
+    "31": 1.239451583127288,
+    "32": 1.0678592594915473,
+    "33": 1.1714911930804275,
+    "34": 0.8730687346468312,
+    "35": 1.1850732064513108
+  },
+  "reconstruction_cases": 504,
+  "model_selection": {
+    "ridge": 100,
+    "spatial": 30
+  },
+  "reconstruction": [
+    {
+      "pattern": "random",
+      "method": "median",
+      "cases": 84,
+      "rmse_log1p": 2.3177043945945037,
+      "mae_log1p": 1.699849971674869,
+      "access_absolute_error": 0.022931047954958504,
+      "interval90_coverage": null
+    },
+    {
+      "pattern": "random",
+      "method": "spatial",
+      "cases": 84,
+      "rmse_log1p": 2.3929842758976214,
+      "mae_log1p": 1.7659135793842395,
+      "access_absolute_error": 0.022214357236618028,
+      "interval90_coverage": null
+    },
+    {
+      "pattern": "random",
+      "method": "ridge",
+      "cases": 84,
+      "rmse_log1p": 1.9569556092583498,
+      "mae_log1p": 1.49784549536685,
+      "access_absolute_error": 0.023405510043101246,
+      "interval90_coverage": 0.9040169563621866
+    },
+    {
+      "pattern": "band",
+      "method": "median",
+      "cases": 84,
+      "rmse_log1p": 2.3350696556085992,
+      "mae_log1p": 1.7161156823121428,
+      "access_absolute_error": 0.0465914944926627,
+      "interval90_coverage": null
+    },
+    {
+      "pattern": "band",
+      "method": "spatial",
+      "cases": 84,
+      "rmse_log1p": 2.2119497600275273,
+      "mae_log1p": 1.6715459475619598,
+      "access_absolute_error": 0.04674500677223194,
+      "interval90_coverage": null
+    },
+    {
+      "pattern": "band",
+      "method": "ridge",
+      "cases": 84,
+      "rmse_log1p": 1.976089980373484,
+      "mae_log1p": 1.5146944253151944,
+      "access_absolute_error": 0.04273909736532745,
+      "interval90_coverage": 0.8998545448687948
+    }
+  ],
+  "movement_runs": 90,
+  "movement_eligible": 90,
+  "movement_regions": [
+    "reg009_A",
+    "reg009_B",
+    "reg039_A",
+    "reg039_B",
+    "reg069_A",
+    "reg069_B"
+  ],
+  "environment": {
+    "python": "3.13.15",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "pandas": "2.3.3"
+  },
+  "interpretation": "Descriptive sampled-tissue analysis; exploratory conditional nulls; patient-level reconstruction reporting; hypothetical movement"
+}
