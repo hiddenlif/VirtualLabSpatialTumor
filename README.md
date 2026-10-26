@@ -4,7 +4,9 @@ An interactive, measured 2D colorectal cancer investigation: inspect cells, quan
 
 This repository contains the completed first local release, its audited reduced input, and the retained investigation. Later scientific and product updates can build on this version.
 
-![Spatial atlas in the shared dark-plum laboratory design](reports/atlas-screen-v2.png)
+![Fieldnotes Spatial Lab — approved static design concept](reports/spatial-lab-final.png)
+
+Approved static design concept. [Running application capture](reports/atlas-screen-v2.png).
 
 The interface shares its palette, navigation and typography with [Culture Lab](https://github.com/hiddenlif/ipsc-bioreactor-lab). The map retains actual source coordinates; annotated cells stay stationary. [Interface design and verification](design-qa.md).
 
