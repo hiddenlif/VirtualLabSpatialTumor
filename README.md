@@ -4,7 +4,9 @@ An interactive, measured 2D colorectal cancer investigation: inspect cells, quan
 
 This repository contains the completed first local release, its audited reduced input, and the retained investigation. Later scientific and product updates can build on this version.
 
-![Spatial atlas](reports/atlas-screen.png)
+![Spatial atlas in the shared dark-plum laboratory design](reports/atlas-screen-v2.png)
+
+The interface shares its palette, navigation and typography with [Culture Lab](https://github.com/hiddenlif/ipsc-bioreactor-lab). The map retains actual source coordinates; annotated cells stay stationary. [Interface design and verification](design-qa.md).
 
 ## Run locally
 
@@ -17,7 +19,7 @@ python3 -m pip install -r requirements.txt
 python3 -m spatial_lab.server --port 8841
 ```
 
-Open **http://127.0.0.1:8841**. On macOS, `run.command` starts the same application once dependencies are installed. Stop with Ctrl+C. The local server uses loopback only; no external model service or credentials are needed. The development preview is stopped after verification. Interactive records persist in the ignored `.runtime/` directory.
+Open **http://127.0.0.1:8841**. On macOS, `run.command` starts the same application once dependencies are installed. Stop with Ctrl+C. The local server uses loopback only; no external model service or credentials are needed. Interactive records persist in the ignored `.runtime/` directory.
 
 ## A useful first investigation
 

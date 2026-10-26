@@ -262,6 +262,44 @@ class Handler(BaseHTTPRequestHandler):
                 "/": ("index.html", "text/html"),
                 "/app.js": ("app.js", "application/javascript"),
                 "/style.css": ("style.css", "text/css"),
+                "/lab-theme.css": ("lab-theme.css", "text/css"),
+                "/assets/icons/activity.svg": (
+                    "assets/icons/activity.svg",
+                    "image/svg+xml",
+                ),
+                "/assets/icons/target.svg": (
+                    "assets/icons/target.svg",
+                    "image/svg+xml",
+                ),
+                "/assets/icons/layers.svg": (
+                    "assets/icons/layers.svg",
+                    "image/svg+xml",
+                ),
+                "/assets/icons/git-branch.svg": (
+                    "assets/icons/git-branch.svg",
+                    "image/svg+xml",
+                ),
+                "/assets/icons/bar-chart-2.svg": (
+                    "assets/icons/bar-chart-2.svg",
+                    "image/svg+xml",
+                ),
+                "/assets/icons/book-open.svg": (
+                    "assets/icons/book-open.svg",
+                    "image/svg+xml",
+                ),
+                "/assets/icons/navigation.svg": (
+                    "assets/icons/navigation.svg",
+                    "image/svg+xml",
+                ),
+                "/assets/icons/aperture.svg": (
+                    "assets/icons/aperture.svg",
+                    "image/svg+xml",
+                ),
+                "/assets/icons/move.svg": ("assets/icons/move.svg", "image/svg+xml"),
+                "/assets/icons/maximize-2.svg": (
+                    "assets/icons/maximize-2.svg",
+                    "image/svg+xml",
+                ),
             }
             if u.path not in files:
                 return self.json({"error": "Not found"}, 404)
