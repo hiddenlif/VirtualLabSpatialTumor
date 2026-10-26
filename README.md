@@ -1,22 +1,22 @@
-# Fieldnotes · Spatial tumor laboratory
+# Virtual Lab: spatial tumor atlas
 
-An interactive, measured 2D colorectal cancer investigation: inspect cells, quantify CD8-to-tumor proximity, challenge assumptions, recover a deliberately masked protein channel, and explore hypothetical movement.
+Fieldnotes is an interactive, measured 2D colorectal cancer investigation: inspect cells, quantify CD8-to-tumor proximity, challenge assumptions, recover a deliberately masked protein channel, and explore hypothetical movement.
 
 This repository contains the completed first local release, its audited reduced input, and the retained investigation. Later scientific and product updates can build on this version.
 
-![Fieldnotes Spatial Lab — approved static design concept](reports/spatial-lab-final.png)
+![Fieldnotes Spatial Lab, approved static design concept](reports/spatial-lab-final.png)
 
 Approved static design concept. [Running application capture](reports/atlas-screen-v2.png).
 
-The interface shares its palette, navigation and typography with [Culture Lab](https://github.com/hiddenlif/ipsc-bioreactor-lab). The map retains actual source coordinates; annotated cells stay stationary. [Interface design and verification](design-qa.md).
+The interface shares its palette, navigation and typography with [Culture Lab](https://github.com/hiddenlif/VirtualLabIPSCBioreactor), the iPSC bioreactor lab. The map retains actual source coordinates; annotated cells stay stationary. [Interface design and verification](design-qa.md).
 
 ## Run locally
 
 Use Python **3.12 or newer**. The recorded environment was Python 3.13.15 on macOS ARM64 with the exact versions in `requirements.txt`.
 
 ```sh
-git clone https://github.com/hiddenlif/spatial-tumor-lab.git
-cd spatial-tumor-lab
+git clone https://github.com/hiddenlif/VirtualLabSpatialTumor.git
+cd VirtualLabSpatialTumor
 python3 -m pip install -r requirements.txt
 python3 -m spatial_lab.server --port 8841
 ```
