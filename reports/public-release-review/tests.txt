@@ -1,0 +1,24 @@
+test_bootstrap_and_region_have_provenance (test_http.HttpTests.test_bootstrap_and_region_have_provenance) ... ok
+test_foreign_origin_and_missing_token_are_rejected (test_http.HttpTests.test_foreign_origin_and_missing_token_are_rejected) ... ok
+test_note_and_simulation_are_preserved_separately (test_http.HttpTests.test_note_and_simulation_are_preserved_separately) ... ok
+test_reconstruction_record_matches_export (test_http.HttpTests.test_reconstruction_record_matches_export) ... ok
+test_rejections_do_not_create_history (test_http.HttpTests.test_rejections_do_not_create_history) ... ok
+test_bh_known_small_case (test_science.ScienceTests.test_bh_known_small_case) ... ok
+test_invalid_or_insufficient_regions_are_explicit (test_science.ScienceTests.test_invalid_or_insufficient_regions_are_explicit) ... ok
+test_kdtree_metric_matches_direct_distances (test_science.ScienceTests.test_kdtree_metric_matches_direct_distances) ... ok
+test_masked_target_cannot_influence_predictions (test_science.ScienceTests.test_masked_target_cannot_influence_predictions) ... ok
+test_missingness_count_and_contiguous_band (test_science.ScienceTests.test_missingness_count_and_contiguous_band) ... ok
+test_motion_reproducible_and_preserves_source (test_science.ScienceTests.test_motion_reproducible_and_preserves_source) ... ok
+test_patient_splits_are_disjoint_and_complete (test_science.ScienceTests.test_patient_splits_are_disjoint_and_complete) ... ok
+test_random_labelling_conserves_support_and_reproduces (test_science.ScienceTests.test_random_labelling_conserves_support_and_reproduces) ... ok
+test_source_roster_and_missing_annotations (test_science.ScienceTests.test_source_roster_and_missing_annotations) ... ok
+test_spatial_inverse_distance_independent_example (test_science.ScienceTests.test_spatial_inverse_distance_independent_example) ... ok
+test_terrain_does_not_fill_unobserved_voids (test_science.ScienceTests.test_terrain_does_not_fill_unobserved_voids) ... ok
+test_recorded_cleanup_revision_is_accepted (test_source_binding.SourceBindingTests.test_recorded_cleanup_revision_is_accepted) ... ok
+test_unrecorded_source_edit_is_rejected (test_source_binding.SourceBindingTests.test_unrecorded_source_edit_is_rejected) ... ok
+test_unrelated_original_study_is_rejected (test_source_binding.SourceBindingTests.test_unrelated_original_study_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.824s
+
+OK

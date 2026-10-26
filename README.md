@@ -35,7 +35,7 @@ Reconstructed cells have amber rings. The truth toggle is explicitly for validat
 - **140** reference regions across **35** patients; **123** have sufficient tumor and CD8 cells for the primary proximity estimand.
 - **504** reconstruction comparisons on seven reporting patients, kept separate from 21 training and seven development patients.
 - **90** conditional movement runs. These do not predict migration or treatment response.
-- **16** scientific and HTTP tests passed. A fresh run reproduced eight substantive study artifacts exactly.
+- **19** scientific, HTTP and source-binding tests passed. A fresh run reproduced eight substantive study artifacts exactly.
 
 Marker regression reduced channel reconstruction error, but downstream proximity error did not improve consistently. No region met the adjusted depletion threshold under the planned null tests; limited randomization resolution and the cohort's sampling prevent interpreting this as absence of exclusion.
 
@@ -66,3 +66,5 @@ Ruff is pinned to 0.17.2 and configured for Python 3.12+. The [cleanup verificat
 The source is [Schürch's Mendeley Data V1 deposit](https://data.mendeley.com/datasets/mpjzbtfgfr/1), DOI **10.17632/mpjzbtfgfr.1**, licensed CC BY 4.0. The full 223 MB original CSV is retained locally and ignored for future Git. A 21 MB selected-column representation is included under `data/derived/`, with source hash, units, joins and attribution. See [data attribution](DATA_ATTRIBUTION.md).
 
 This release analyzes processed 2D centroids. It does not rerun image segmentation, establish a registered tumor boundary, reconstruct patient-specific 3D tissue, or predict clinical outcomes. Ridge regression is the fitted model; the application has no autonomous LLM connection.
+
+See the [public-release review](reports/public-release-review/README.md) for current checks. The source dataset's CC BY 4.0 licence is separate from the project code; no project-code licence has been assigned.
